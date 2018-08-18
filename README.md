@@ -5,6 +5,6 @@ The Fibonacci Sequence is the sequence of the Fibonacci numbers defined by F[0] 
 ---
 # Data Structures 
 
-All code for the (first lesson)[http://www.procul.org/blog/2012/02/07/thu%E1%BA%ADt-toan-t%E1%BB%93i-t%E1%BB%87-nh%E1%BA%A5t-trong-l%E1%BB%8Bch-s%E1%BB%AD-nhan-lo%E1%BA%A1i/] of Prof. Hung 
+All code for the [first lesson](http://www.procul.org/blog/2012/02/07/thu%E1%BA%ADt-toan-t%E1%BB%93i-t%E1%BB%87-nh%E1%BA%A5t-trong-l%E1%BB%8Bch-s%E1%BB%AD-nhan-lo%E1%BA%A1i/) of Prof. Hung 
 
 
