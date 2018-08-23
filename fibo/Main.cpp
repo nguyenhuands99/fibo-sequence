@@ -13,8 +13,8 @@ int main(int argc, const char *argv[])
 {
 	argc = 3;
 	argv[0] = MY_FILE; 
-	argv[1] = "2";
-	argv[2] = "50";
+	argv[1] = "5";
+	argv[2] = "100000";
 	if (argc != 3)
 		return 0;
 	int alg = atoi(argv[1]);
@@ -25,6 +25,7 @@ int main(int argc, const char *argv[])
 	case 2: fib = &fibo2; break;
 	case 3: fib = &fibo3; break;
 	case 4: fib = &fibo4; break;
+	case 5: fib = &fibo5; break;
 	default: return 0;
 	}
 	unsigned long n;
