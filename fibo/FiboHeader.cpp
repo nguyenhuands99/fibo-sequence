@@ -1,4 +1,5 @@
 #include "FiboHeader.h"
+#include "Matrices.h"
 #include <vector>
 #include <malloc.h>
 
@@ -66,4 +67,12 @@ unsigned long long fibo4(unsigned long n)
 		b = temp;
 	}
 	return temp;
+}
+
+unsigned long long fibo5(unsigned long n)
+{
+	if (n <= 1)
+		return n;
+	Matrix ret = matrix_power(n - 1);
+	return ret.a11;
 }

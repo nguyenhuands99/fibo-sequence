@@ -12,5 +12,9 @@ unsigned long long fibo3(unsigned long n);
 
 //Using dynamic programming
 unsigned long long fibo4(unsigned long n);
+
+//Using matrix technique 
+unsigned long long fibo5(unsigned long n);
+
 #endif // ! _MY_FIBO
 
