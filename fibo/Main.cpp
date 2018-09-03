@@ -18,7 +18,7 @@ int main(int argc, const char *argv[])
 	if (argc != 3)
 		return 0;
 	int alg = atoi(argv[1]);
-	unsigned long long(*fib)(unsigned long);
+	unsigned long long (*fib)(unsigned long);
 	switch (alg)
 	{
 	case 1: fib = &fibo1; break;
